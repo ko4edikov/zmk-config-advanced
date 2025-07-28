@@ -116,13 +116,13 @@ layers:
   - Reset
   - ''
   - ''
-  - ''
+  - EP TOG
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-next-outline$$', type: tap_dance}
   - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
   - ''
   - ''
   - ''
-  - ''
+  - EP TOG
   - ''
   - Reset
   - {type: held}
