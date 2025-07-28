@@ -20,21 +20,25 @@
         mo_adm {
             bindings = <&mo 3>;
             key-positions = <36 41>;
+            timeout-ms = <50>;
         };
 
         caps_lock {
             bindings = <&kp CAPSLOCK>;
             key-positions = <17 18>;
+            timeout-ms = <50>;
         };
 
         st_adm_L {
             bindings = <&sl 3>;
             key-positions = <36 37 5>;
+            timeout-ms = <50>;
         };
 
         st_adm_R {
             bindings = <&sl 3>;
             key-positions = <40 41 6>;
+            timeout-ms = <50>;
         };
     };
 
