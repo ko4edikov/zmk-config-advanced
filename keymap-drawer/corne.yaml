@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: LEFT GUI}
   - {t: ↹, h: lower}
   - {t: BACKSPACE, h: raise}
-  - ␣
+  - {t: ␣, h: '$$mdi:apple-keyboard-command$$'}
   - {t: RIGHT SHIFT, h: sticky}
   lower:
   - {t: ▽, type: trans}
@@ -185,3 +185,5 @@ combos:
 - p: [11, 22, 33]
   k: Boot
   l: [default]
+- p: [3, 4]
+  k: Sft+Gui+F12
