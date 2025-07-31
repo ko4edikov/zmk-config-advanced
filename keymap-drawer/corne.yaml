@@ -23,8 +23,8 @@ layers:
   - J
   - K
   - L
-  - ''''
-  - {t: RIGHT ALT, h: sticky}
+  - {t: '''', s: ;}
+  - {t: LEFT ALT, h: sticky}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - Z
   - X
@@ -72,12 +72,12 @@ layers:
   - {t: ▽, type: trans}
   - '~'
   - '`'
-  - '['
   - '{'
-  - '}'
+  - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '}'
+  - ':'
+  - ;
   - LEFT WIN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -85,7 +85,7 @@ layers:
   - {type: held}
   - BACKSPACE
   - {t: ▽, type: trans}
-  - ':'
+  - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
   - DELETE
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - ESCAPE
   - {t: ▽, type: trans}
-  - ↹
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,10 +165,10 @@ layers:
   - {t: BT DISC, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: PRINTSCREEN, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↹
+  - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
