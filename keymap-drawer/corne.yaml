@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - {t: '''', h: LEFT ALT}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
   - Z
   - X
   - C
@@ -37,7 +37,7 @@ layers:
   - .
   - /
   - {t: function, h: sticky}
-  - {t: '$$mdi:apple-keyboard-control$$', h: sticky}
+  - {t: LSHIFT, h: sticky}
   - {t: ENTER, h: LEFT GUI}
   - {t: ↹, h: lower}
   - {t: BACKSPACE, h: raise}
