@@ -44,9 +44,11 @@
             layers = <0>;
         };
 
-        Cmd+Shift+F12 {
+        Cmd_Shift_F12 {
             bindings = <&kp LS(LG(F12))>;
             key-positions = <3 4>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
