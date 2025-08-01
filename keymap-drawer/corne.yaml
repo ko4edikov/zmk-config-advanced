@@ -78,7 +78,7 @@ layers:
   - '}'
   - ':'
   - ;
-  - LEFT WIN
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
