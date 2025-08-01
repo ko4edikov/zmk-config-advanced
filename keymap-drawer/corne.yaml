@@ -188,3 +188,6 @@ combos:
 - p: [3, 4]
   k: Sft+Gui+F12
   l: [default]
+- p: [19, 21]
+  k: Ctl+␣
+  l: [default]

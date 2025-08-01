@@ -58,6 +58,13 @@
             timeout-ms = <50>;
             layers = <0>;
         };
+
+        input_ch {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <19 21>;
+            timeout-ms = <150>;
+            layers = <0>;
+        };
     };
 
     keymap {
