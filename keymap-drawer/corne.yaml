@@ -67,7 +67,7 @@ layers:
   - Sft+_
   - Sft+)
   - ']'
-  - Sft+`
+  - '`'
   - {t: ▽, type: trans}
   - ''
   - ''
