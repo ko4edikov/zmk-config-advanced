@@ -121,6 +121,14 @@
             tapping-term-ms = <150>;
             flavor = "balanced";
         };
+
+        td_lbrkt_colon: td_lbrkt_colon {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_LBRKT_COLON";
+            #binding-cells = <0>;
+            tapping-term-ms = <100>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp COLON>;
+        };
     };
 
     keymap {
@@ -137,9 +145,9 @@
 
         lower_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3     &kp N4    &kp N5       &kp LS(AMPS)   &kp LS(LT)    &kp EQUAL           &kp LS(GT)    &kp LS(PIPE)   &kp LS(BACKSLASH)
-&trans  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0       &kp LBKT       &kp LS(LPAR)  &kp LS(UNDERSCORE)  &kp LS(RPAR)  &kp RBKT       &kp GRAVE
-&trans  &none   &none   &kp MINUS  &kp PLUS  &kp TILDE    &kp LS(DLLR)   &kp LS(LBRC)  &kp MINUS           &kp LS(RBRC)  &kp LS(CARET)  &kp LS(EXCL)
+&trans  &kp N1  &kp N2  &kp N3     &kp N4    &kp N5       &kp LS(AMPS)   &kp LS(LT)    &kp EQUAL           &kp LS(GT)    &kp LS(PIPE)     &kp LS(BACKSLASH)
+&trans  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0       &kp LBKT       &kp LS(LPAR)  &kp LS(UNDERSCORE)  &kp LS(RPAR)  &td_lbrkt_colon  &kp GRAVE
+&trans  &none   &none   &kp MINUS  &kp PLUS  &kp TILDE    &kp LS(DLLR)   &kp LS(LBRC)  &kp MINUS           &kp LS(RBRC)  &kp LS(CARET)    &kp LS(EXCL)
                         &trans     &trans    &trans       &kp BACKSPACE  &trans        &trans
             >;
         };
