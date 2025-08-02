@@ -126,7 +126,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LBRKT_COLON";
             #binding-cells = <0>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             bindings = <&kp RIGHT_BRACKET>, <&kp COLON>;
         };
     };
