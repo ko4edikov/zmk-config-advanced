@@ -50,12 +50,12 @@ layers:
   - '3'
   - '4'
   - '5'
-  - Sft+AMPS
-  - Sft+<
+  - AMPS
+  - <
   - '='
-  - Sft+>
-  - Sft+|
-  - Sft+\
+  - '>'
+  - '|'
+  - \
   - {t: ▽, type: trans}
   - '6'
   - '7'
@@ -63,9 +63,9 @@ layers:
   - '9'
   - '0'
   - '['
-  - Sft+(
-  - Sft+_
-  - Sft+)
+  - (
+  - _
+  - )
   - '&td_lbrkt_colon'
   - '`'
   - {t: ▽, type: trans}
@@ -74,12 +74,12 @@ layers:
   - '-'
   - +
   - '~'
-  - Sft+$
-  - Sft+{
+  - $
+  - '{'
   - '-'
-  - Sft+}
-  - Sft+^
-  - Sft+!
+  - '}'
+  - ^
+  - '!'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -96,8 +96,8 @@ layers:
   - MUTE
   - VOLUME DOWN
   - Vol Up
-  - \
-  - '|'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F6

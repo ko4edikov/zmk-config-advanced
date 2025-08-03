@@ -145,16 +145,16 @@
 
         lower_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3     &kp N4    &kp N5       &kp LS(AMPS)   &kp LS(LT)    &kp EQUAL           &kp LS(GT)    &kp LS(PIPE)     &kp LS(BACKSLASH)
-&trans  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0       &kp LBKT       &kp LS(LPAR)  &kp LS(UNDERSCORE)  &kp LS(RPAR)  &td_lbrkt_colon  &kp GRAVE
-&trans  &none   &none   &kp MINUS  &kp PLUS  &kp TILDE    &kp LS(DLLR)   &kp LS(LBRC)  &kp MINUS           &kp LS(RBRC)  &kp LS(CARET)    &kp LS(EXCL)
-                        &trans     &trans    &trans       &kp BACKSPACE  &trans        &trans
+&trans  &kp N1  &kp N2  &kp N3     &kp N4    &kp N5       &kp AMPS       &kp LT    &kp EQUAL  &kp GT    &kp PIPE         &kp BACKSLASH
+&trans  &kp N6  &kp N7  &kp N8     &kp N9    &kp N0       &kp LBKT       &kp LPAR  &kp UNDER  &kp RPAR  &td_lbrkt_colon  &kp GRAVE
+&trans  &none   &none   &kp MINUS  &kp PLUS  &kp TILDE    &kp DLLR       &kp LBRC  &kp MINUS  &kp RBRC  &kp CARET        &kp EXCL
+                        &trans     &trans    &trans       &kp BACKSPACE  &trans    &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp C_MUTE          &kp C_VOLUME_DOWN     &kp C_VOL_UP           &kp BACKSLASH        &kp PIPE       &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &kp C_MUTE          &kp C_VOLUME_DOWN     &kp C_VOL_UP           &none                &none          &trans
 &trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp LEFT            &kp DOWN              &kp UP_ARROW           &kp RIGHT            &kp PAGE_UP    &trans
 &trans  &kp F11  &kp F12  &EUR_   &CRM_   &none      &kp LA(LEFT_ARROW)  &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LA(RIGHT_ARROW)  &kp PAGE_DOWN  &trans
                           &trans  &trans  &trans     &trans              &trans                &trans
